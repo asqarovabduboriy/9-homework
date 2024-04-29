@@ -7,6 +7,10 @@ export default class Form extends Component {
                 <div className='container'>
                     <p>Contact </p>
                     <h2>Food Stalls with Persons but also specialized equipment, Skills to manage.</h2>
+                    <form className='form_section'>
+                        <input type="text" placeholder='Enter your message'  />
+                        <button>Send</button>
+                    </form>
                 </div>
             </div>
         )

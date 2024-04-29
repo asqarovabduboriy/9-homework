@@ -1,12 +1,12 @@
 .bg_color {
-    background: rgb(220, 120, 11);
-    opacity: 0.6;
+    background: rgba(220, 120, 11, 0.1);
     margin-top: 120px;
+    padding-bottom: 117px;
 
 }
 
-.bg_color p{
-    color: white;
+.bg_color p {
+    color: black;
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 500;
@@ -18,7 +18,7 @@
     margin-bottom: 15px;
 }
 
-.bg_color h2{
+.bg_color h2 {
     color: rgb(21, 12, 1);
     font-family: "Philosopher";
     font-size: 31.25px;
@@ -26,4 +26,40 @@
     line-height: 40.6px;
     letter-spacing: 0%;
     text-align: center;
+    width: 749px;
+    margin: 0 auto;
+}
+
+.form_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+}
+
+.form_section input {
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 25px;
+    width: 750px;
+    border: none;
+}
+
+.form_section button {
+    border-radius: 10px;
+    background: rgb(220, 120, 11);
+    border: none;
+    margin-left: -150px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 30px 57px;
 }
