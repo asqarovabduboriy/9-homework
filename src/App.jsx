@@ -1,6 +1,7 @@
 import './App.css'
 import About from './Components/About/About'
 import Banner from './Components/Banner/Banner'
+import Footer from './Components/Footer/Footer'
 import Form from './Components/Form/Form'
 import Hero from './Components/Hero/Hero'
 import Main from './Components/Main/Main'
@@ -20,6 +21,7 @@ function App() {
     <Product/>
      <Banner text_h4 = 'Testimonial'text_h2 = 'Making Food great again and again' p_text= 'You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc to make your.' img = {img1}/>
      <Form/>
+     <Footer/>
     </>
 
     

@@ -1,0 +1,59 @@
+footer{
+    background: rgb(37, 37, 37);
+    padding: 137px 0 104px;
+}
+
+.text_content_one{
+    display: grid;
+    grid-gap: 17px;
+    margin-top: 25px;
+}
+
+.text_content_one p{
+    color: rgb(255, 255, 255);
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.text_content_two{
+    margin-bottom: 26px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.text_content_two p{
+    color: rgb(255, 255, 255);
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+cursor: pointer;
+}
+
+.text_content_two h3{
+    color: rgb(255, 255, 255);
+font-family: "Philosopher";
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.flex_elemnt_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

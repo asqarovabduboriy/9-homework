@@ -31,7 +31,7 @@ export default class Product extends Component {
 
                     <div className='prduct_flex'>
                         {
-                            this.state.data?.slice(0, 6).map((el) =>
+                            this.state.data?.slice(24, 30).map((el) =>
                                 <div key={el.id} className='product_card' >
                                     <div>
                                         <img src={el.images[0]} alt={el.title} />
