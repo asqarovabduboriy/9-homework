@@ -1,0 +1,52 @@
+.hero_text_content h1 {
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher";
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 555px;
+}
+
+.hero_text_content p {
+    color: rgb(21, 12, 1);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 555px;
+    margin-top: 42px;
+}
+
+.hero_text_content button {
+    box-sizing: border-box;
+    border: 1.5px solid rgb(220, 120, 11);
+    border-radius: 5px;
+    padding: 21px 40px;
+  background-color: transparent;
+
+}
+
+.hero_text_content button:hover {
+    border-radius: 5px;
+    background: rgb(220, 120, 11);
+    color: rgb(255, 255, 255);
+    padding: 21px 40px;
+
+}
+
+.hero_btn_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.flex_hero_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

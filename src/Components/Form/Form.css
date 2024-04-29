@@ -1,0 +1,29 @@
+.bg_color {
+    background: rgb(220, 120, 11);
+    opacity: 0.6;
+    margin-top: 120px;
+
+}
+
+.bg_color p{
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 115px;
+    margin-bottom: 15px;
+}
+
+.bg_color h2{
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher";
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.6px;
+    letter-spacing: 0%;
+    text-align: center;
+}

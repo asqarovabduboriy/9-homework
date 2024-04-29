@@ -1,0 +1,151 @@
+.product_title {
+    margin-top: 115px;
+}
+
+.product_title .p_menu {
+    color: rgb(220, 120, 11);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.product_title h2 {
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher";
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.p_text_product {
+    color: rgb(21, 12, 1);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 748px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.product_card {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px;
+    background: rgb(255, 255, 255);
+    width: 360px;
+}
+
+.product_card img {
+    border-radius: 75px 10px 10px 10px;
+    width: 360px;
+    height: 265px;
+    object-fit: cover;
+}
+
+.card_text_content {
+    padding: 25px;
+}
+
+.price_wraper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.price_wraper h3 {
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.price_wraper b {
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+
+.card_text_content p {
+    color: rgb(21, 12, 1);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 310px;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.stars button {
+    border-radius: 5px;
+    background: rgb(220, 120, 11);
+    font-size: 12px;
+    color: white;
+    padding: 11px 12px;
+    border: none;
+}
+
+.star{
+
+    color: rgb(220, 120, 11);
+}
+
+.prduct_flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.learn_more {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.learn_more button{
+        box-sizing: border-box;
+        border: 1.5px solid rgb(220, 120, 11);
+        border-radius: 5px;
+        padding: 21px 40px;
+      background-color: transparent;
+    
+    }
+    
+    .learn_more button:hover {
+        border-radius: 5px;
+        background: rgb(220, 120, 11);
+        color: rgb(255, 255, 255);
+        padding: 21px 40px;
+    
+    
+}

@@ -1,0 +1,103 @@
+  .main_card_one {
+    background: rgb(143, 166, 50);
+    opacity: 0.5;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    margin-left: 106px;
+}
+
+.main_card_one img {
+    margin-top: 15px;
+}
+
+.main_card h3 {
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 33px;
+}
+
+.main_card p {
+    width: 300px;
+    color: rgb(21, 12, 1);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 15px;
+}
+.main_card_two img{
+    margin-top: 15px;
+}
+
+.main_card_two {
+    background: rgb(230, 77, 46);
+    opacity: 0.5;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    margin-left: 106px;
+
+}
+
+.main_card_there img {
+    margin-top: 15px;
+}
+
+.main_card_there {
+    background: rgb(220, 120, 11);
+    opacity: 0.5;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    margin-left: 106px;
+
+}
+
+.flex_main_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_card_title{
+    margin-top: 115px;
+    margin-bottom: 40px;
+}
+
+.main_card_title p{
+    color: rgb(220, 120, 11);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.main_card_title h2{
+    color: rgb(21, 12, 1);
+    font-family: "Philosopher";
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
